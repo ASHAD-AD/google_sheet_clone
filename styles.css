@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+#header > b {
+  padding: 10px;
+  text-align: center;
+  min-width: 100px;
+  border: 1px solid #dfe4e9;
+}
+
+.row {
+  display: flex;
+}
+
+.row > b,
+.row > div {
+  padding: 10px;
+  min-width: 100px;
+  border: 1px solid #dfe4e9;
+  border-top: 0;
+  /* border-right: 0; */
+}
+.row > b:first-child {
+  text-align: center;
+  /* background-color: red; */
+}
+
+.row > b:first-child {
+  position: sticky;
+  left: 0;
+}
+#options {
+  padding: 10px;
+  background-color: #ecf0f1;
+}
+#active-cell {
+  background-color: white;
+  padding: 2px 10px;
+}
